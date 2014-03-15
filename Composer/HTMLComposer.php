@@ -5,11 +5,11 @@ require_once 'ParseDown.php';
 class HTMLComposer{
     
     private static $assets = array(
-        array( 'name' => 'φάση 1', 'file' => 'Composer\\phase1.md' ),
-        array( 'name' => 'φάση 2', 'file' => 'Composer\\phase2.md' ),
-        array( 'name' => 'φάση 3', 'file' => 'Composer\\phase3.md' ),
-        array( 'name' => 'φάση 4', 'file' => 'Composer\\phase4.md' ),
-        array( 'name' => 'φάση 5', 'file' => 'Composer\\phase5.md' ),
+        array( 'name' => 'φάση 1', 'file' => 'phase1.md' ),
+        array( 'name' => 'φάση 2', 'file' => 'phase2.md' ),
+        array( 'name' => 'φάση 3', 'file' => 'phase3.md' ),
+        array( 'name' => 'φάση 4', 'file' => 'phase4.md' ),
+        array( 'name' => 'φάση 5', 'file' => 'phase5.md' ),
     );
     private static $ACTIVE_PHASE = 0; // index in assets array
     private static $FAQ_SPLIT_TOKEN = '========================='; // 15
