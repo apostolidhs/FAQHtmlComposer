@@ -1,0 +1,33 @@
+a{
+    cursor:pointer;
+}
+
+.faq-phase, .faq-ans{
+    display: none;
+}
+
+.faq-ans{
+    margin-bottom: 5px;
+    border: 1px solid #ddd;
+    padding:10px 15px;
+    background-color: #eee;
+}
+
+.faq-phase.active{
+    display: block;
+}
+
+.faq-expand-icon{
+    float:right;
+    display: none;
+}
+
+footer{
+    margin-top: 60px;
+    background-color: #eee;
+    border: 1px solid #ddd;
+}
+
+.faq-ftr-col > *{ 
+    text-align: center; 
+}
